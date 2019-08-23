@@ -15,15 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('goo', function () {
+    return "goo. This text is being returned from the routes/web.php file itself";
+});
+
 Route::get('foo', function () {
     return view('foo');
 });
-
-Route::get('foo2', function () {
-    return "heloo foo";
-});
-
-
-
 
 Route::resource('cars', 'CarController');
