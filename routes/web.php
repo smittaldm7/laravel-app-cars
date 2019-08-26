@@ -24,3 +24,9 @@ Route::get('foo', function () {
 });
 
 Route::resource('cars', 'CarController');
+//creates a bunch of routes to the car controller
+
+//Route::get('/site/index', 'SiteController@index');
+
+//Route::get('cars', 'CarController@index')
+//Route::get('cars/create', 'CarController@create')
